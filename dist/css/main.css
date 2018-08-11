@@ -1071,7 +1071,7 @@ button.uk-icon:not(:disabled) {
  * Link
  */
 .uk-icon-link {
-  color: #999;
+  color: red;
 }
 .uk-icon-link:hover,
 .uk-icon-link:focus {

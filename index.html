@@ -26,6 +26,7 @@
             </div>
         </div>
         <div class="uk-navbar-right">
+            <!-- Mobile Nav -->
             <ul class="uk-navbar-nav" v-if="small_window">
                 <li>
                     <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
@@ -38,6 +39,7 @@
                     </div>
                 </li>
             </ul>
+            <!-- Regular Nav -->
             <ul class="uk-navbar-nav" v-else>
                 <li class="uk-active"><a href="">Home</a></li>
                 <li><a href="">Apply</a></li>
@@ -47,14 +49,93 @@
     </nav>
 
 
-    <div v-if="true">
-        hi
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-text-center" uk-grid>
+                <div class="uk-width-2-3@s">
+                    <img data-src="dist/images/dancing.gif" width=700em uk-img>
+                    <ul class="uk-pagination uk-flex-center">
+                        <li><a href="#"><span uk-pagination-previous></span></a></li>
+                        <li class="uk-active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><span uk-pagination-next></span></a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-expand">
+                    <h2>Dance Team Wows the Crowd</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum massa est, gravida sit amet luctus ut, lobortis ut mauris. Aliquam sit amet commodo purus. Praesent fringilla purus ut nisl pulvinar, sit amet lobortis nulla accumsan. Suspendisse commodo pulvinar purus, non lobortis nibh. Ut pharetra arcu et metus suscipit venenatis. Sed ut sem eu ante iaculis venenatis. Suspendisse luctus nunc et tristique condimentum.
+
+                    Nullam id cursus urna, tincidunt porta orci. Donec viverra lectus erat, eget aliquet nulla efficitur eu. Donec in nisl et lectus consequat sagittis eu ac elit. Duis placerat venenatis bibendum. Vestibulum porttitor ipsum quis risus euismod.</p>
+                </div>
+            </div>
+            
+        </div>
     </div>
-    <div v-else>
-        no
+
+    <div class="uk-section uk-background-muted">
+        <div class="uk-container">
+            <h1>Dance Team Open Spots</h1>
+            <h3>Morbi risus velit, pulvinar elementum quam sed, blandit faucibus quam. In sit amet volutpat nisi. Praesent at massa dolor. Mauris a sodales sem. Fusce interdum enim ut lobortis tristique. Donec arcu purus, molestie eu risus et, volutpat porta diam. In ut quam ut felis volutpat mattis. Donec faucibus quam odio, et molestie sapien hendrerit sed. Nulla lacinia eu est eget fringilla. In in ex non libero ornare mollis. Nulla mollis urna pulvinar, rhoncus nunc ac, luctus diam. Sed commodo gravida massa vitae viverra. Nunc in fringilla metus. Nulla auctor leo urna, non consequat tortor tempor ut. In placerat leo vel ligula iaculis, non laoreet felis congue. Fusce venenatis feugiat accumsan.</h3>
+        </div>
+    </div>
+
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div class="uk-card uk-card-hover uk-card-small" style="padding-left: 0px">
+                    <div class="uk-card-media-top">
+                        <img class="uk-border-circle uk-flex-center" src="dist/images/dance_portrait.jpeg" width=200em>
+                    </div>
+                    <div class="uk-card-body">
+                        <h4>Julie Roberts</h4>
+                        <p>Mauris pharetra vel orci in fermentum. Etiam porta purus ut nunc pretium egestas. Aliquam erat volutpat. Suspendisse luctus pellentesque dui, sit amet ullamcorper velit hendrerit id. </p>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-hover uk-card-small" style="padding-left: 0px">
+                    <div class="uk-card-media-top">
+                        <img class="uk-border-circle uk-flex-center" src="dist/images/dance_portrait.jpeg" width=200em>
+                    </div>
+                    <div class="uk-card-body">
+                        <h4>Julie Roberts</h4>
+                        <p>Mauris pharetra vel orci in fermentum. Etiam porta purus ut nunc pretium egestas. Aliquam erat volutpat. Suspendisse luctus pellentesque dui, sit amet ullamcorper velit hendrerit id. </p>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-hover uk-card-small" style="padding-left: 0px">
+                    <div class="uk-card-media-top">
+                        <img class="uk-border-circle uk-flex-center" src="dist/images/dance_portrait.jpeg" width=200em>
+                    </div>
+                    <div class="uk-card-body">
+                        <h4>Julie Roberts</h4>
+                        <p>Mauris pharetra vel orci in fermentum. Etiam porta purus ut nunc pretium egestas. Aliquam erat volutpat. Suspendisse luctus pellentesque dui, sit amet ullamcorper velit hendrerit id. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
+    <a href="" uk-icon="icon: heart"></a>
+    <span uk-icon="icon: check"></span>
+    <!-- Footer -->
+    <div class="uk-section uk-background-primary uk-light">
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-1-3">
+                    <h3>Created by Chase Williams</h3>
+                    <a href="" class="uk-icon-button" uk-icon="icon: mail"></a>
+                </div>
+                <div class="uk-width-expand">
+                    <h4>Contact Us</h4>
+                    <p>Sed laoreet, odio vitae bibendum gravida, arcu sapien maximus purus, consectetur pretium mauris orci ac eros. Morbi vel ligula sit amet tellus dignissim tincidunt eget non massa. Morbi cursus dolor quis lacus luctus, in consectetur lacus aliquet.
+
+                    Morbi blandit elementum dui, vitae ullamcorper neque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Vue.js scope-->
     </div>
     <script src="dist/js/uikit-icons.min.js"></script>
     <script src="dist/js/uikit.min.js"></script>
