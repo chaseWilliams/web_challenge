@@ -9,23 +9,57 @@
         <title>Department of Dance</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Imports -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
         <link rel="stylesheet" href="dist/css/main.css">
     </head>
     <body>
+    <div id="app">
     <!-- Navbar -->
     <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-left">
-
+            <div class="uk-navbar-item">
+                <h1>BYU</h1>
+            </div>
+            <div class="uk-navbar-item">
+                <h3 class="shrink-h3">Department of Dance</h3>
+            </div>
         </div>
         <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
+            <ul class="uk-navbar-nav" v-if="small_window">
+                <li>
+                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="">Home</a></li>
+                            <li><a href="">Apply</a></li>
+                            <li><a href="">About</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="uk-navbar-nav" v-else>
                 <li class="uk-active"><a href="">Home</a></li>
                 <li><a href="">Apply</a></li>
                 <li><a href="">About</a></li>
             </ul>
         </div>
     </nav>
+
+
+    <div v-if="true">
+        hi
+    </div>
+    <div v-else>
+        no
+    </div>
+
+
+    </div>
     <script src="dist/js/uikit-icons.min.js"></script>
     <script src="dist/js/uikit.min.js"></script>
+    <script src="dist/js/vue.js"></script>
+    <script src="dist/js/app.js"></script>
+    
     </body>
 </html>

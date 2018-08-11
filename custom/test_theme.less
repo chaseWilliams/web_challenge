@@ -14,8 +14,18 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: @global-title-font-family;
+    margin-bottom: 0px;
 }
 
+.logo {
+    padding-left: 20px;
+}
+
+.shrink-h3 {
+    @media (max-width: 600px) {
+        font-size: 1.0rem;
+    }
+}
 /*
 fonts
 @global-font-family: "fontawesome", Helvetica, sans-serif;
