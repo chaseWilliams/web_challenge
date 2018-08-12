@@ -1912,20 +1912,20 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #222;
+  background-color: #0d1f3a;
   color: #fff;
   border: 1px solid transparent;
 }
 /* Hover + Focus */
 .uk-button-secondary:hover,
 .uk-button-secondary:focus {
-  background-color: #151515;
+  background-color: #081425;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-secondary:active,
 .uk-button-secondary.uk-active {
-  background-color: #080808;
+  background-color: #040910;
   color: #fff;
 }
 /*
@@ -2178,7 +2178,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-section-secondary {
-  background: #222;
+  background: #0d1f3a;
 }
 /* Overlap modifier
  ========================================================================== */
@@ -2677,7 +2677,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-tile-secondary {
-  background: #222;
+  background: #0d1f3a;
 }
 /* ========================================================================
    Component: Card
@@ -2810,7 +2810,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-card-secondary {
-  background: #222;
+  background: #0d1f3a;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2818,7 +2818,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #222;
+  background-color: #0d1f3a;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -3022,7 +3022,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #222;
+  background: #0d1f3a;
   color: #fff;
   border-radius: 500px;
 }
@@ -3221,7 +3221,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-overlay-primary {
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(13, 31, 58, 0.8);
 }
 /* ========================================================================
    Component: Article
@@ -5397,7 +5397,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #222;
+  background: #0d1f3a;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -7294,7 +7294,7 @@ iframe.uk-cover {
   background-color: #002255;
 }
 .uk-background-secondary {
-  background-color: #222;
+  background-color: #0d1f3a;
 }
 /* Size
  ========================================================================== */
@@ -11853,7 +11853,7 @@ h6 {
 }
 @media (max-width: 600px) {
   .shrink-h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 /*
